@@ -1,4 +1,4 @@
-export function chunkText(text: string, chunkSize = 50, overlap = 20): string[] {
+export function chunkText(text: string, chunkSize = 100, overlap = 40): string[] {
   if (chunkSize <= overlap) {
     throw new Error("chunkSize must be greater than overlap");
   }
