@@ -1,0 +1,21 @@
+{
+  "name": "bun-rag-engin",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.20.0",
+    "dotenv": "^18.0.9",
+    "openai": "^7.45.0"
+  }
+}
